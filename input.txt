@@ -1,0 +1,9 @@
+" Настройки сервера
+port := [80 10 +];
+host := "localhost";
+{
+    server_name = "example.com";
+    timeout = [port 50 mod];
+    " Копируеммм
+    port_copy = port;
+}
