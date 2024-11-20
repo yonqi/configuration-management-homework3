@@ -1,0 +1,9 @@
+" Конфигурация для теста
+max_connections := 100;
+timeout := 30;
+{
+    database_host = "127.0.0.1";
+    database_port = [max_connections 100 +];
+    api_url = "https://api.example.com";
+    max_retries = [timeout 4 mod];
+}
